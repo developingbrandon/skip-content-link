@@ -1,0 +1,32 @@
+.not_visible {
+	display: block;
+	position: absolute;
+	top: -40px;
+	left: calc(50% - 100px);
+	width: 200px;
+	height: 40px;
+	color: #fff;
+	font-size: 14pt;
+	background-color: #888;
+	border-radius: 0 0 4px 4px;
+	text-align: center;
+	line-height: 2;
+	z-index: 3;
+
+}
+
+.visible {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 100px);
+	width: 200px;
+	height: 40px;
+	color: #fff;
+	font-size: 14pt;
+	background-color: #888;
+	border-radius: 0 0 4px 4px;
+	text-align: center;
+	line-height: 2;
+	z-index: 3;
+}
