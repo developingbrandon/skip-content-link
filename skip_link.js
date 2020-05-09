@@ -9,8 +9,6 @@
 // On gaining focus the link triggers the original CSS class to display.
 // Upon loosing focus the link will hide again after 3 sec.
 
-// console.log() has been preserved but disabled for debugging purposes
-
 
 			// Set the time to hide the link after the page loads:
 			window.setTimeout(hideSkip, 10000)
