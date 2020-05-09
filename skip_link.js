@@ -1,5 +1,5 @@
 // skip_link.js
-// built by Twin Tiers IT, LLC
+// built by Brandon Hills
 // created on 8/14/19
 
 // Script to trigger a link to allow skipping to main page content.
@@ -24,13 +24,11 @@
 			// Hides link after time set by Timeout
 			function hideSkip() {
 				document.getElementById('skip').className = 'not_visible';
-				//console.log('The link is no longer visible');
 			}
 
 			// Displays link after link has been hiden because of Timeout
 			function displaySkip() {
 				document.getElementById('skip').className = 'visible';
-				//console.log('The link is now visible');
 			}
 
 			// Rehides link after loosing focus
